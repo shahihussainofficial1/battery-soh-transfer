@@ -20,13 +20,15 @@
 
 \author{\IEEEauthorblockN{Haider Md. Faiyaz Hussain Shahi}
 \IEEEauthorblockA{\textit{Independent Researcher} \\
-shahihussainofficial1@gmail.com}
+\url{https://orcid.org/0009-0004-0940-9096} \\
+shahihussainofficial1@gmail.com \\
+DOI: \href{https://doi.org/10.5281/zenodo.24053885}{10.5281/zenodo.24053885}}
 }
 
 \maketitle
 
 \begin{abstract}
-Data-driven estimation of the state of health (SOH) of lithium-ion batteries from charging curves often reports errors below 1\%, but such figures are often obtained on cycles of the same cells that were used for training. We build a common benchmark from three public aging datasets (NASA, Oxford and CALCE; 18 cells and 4{,}936 cycles down to 70\% SOH) and estimate SOH from the top-of-charge voltage window of 3.92--4.19\,V, which the constant-current charging curves of all three datasets share. Five regressors are evaluated with absolute features, with features normalized to each cell's own first charge, against a cycle-count baseline and a training-free capacity-ratio estimator. With a random split of cycles the mean error is 0.8 percentage points (pp) of SOH; when a whole cell is held out it is 2.0\,pp; when a whole dataset is held out it rises to 7.9\,pp and the coefficient of determination becomes negative for most configurations. Counting cycles alone is a strong baseline within the Oxford and CALCE datasets and is the best predictor on held-out CALCE cells (2.3\,pp). Reference normalization lowers the cross-dataset error of tree ensembles on two of the three datasets (e.g., from 13.5 to 5.9\,pp on CALCE) but not on Oxford. Our analysis links the failure to a dataset-dependent relation between window charge and capacity (slopes 0.66--1.56) and to degradation features that lie outside the common window. Code and protocol are released for reproducible evaluation.
+Data-driven estimation of the state of health (SOH) of lithium-ion batteries from charging curves often reports errors below 1\%, but such figures are frequently obtained on cycles of the same cells that were used for training. We build a common benchmark from three public aging datasets (NASA, Oxford and CALCE; 18 cells and 4{,}936 cycles down to 70\% SOH) and estimate SOH from the top-of-charge voltage window of 3.92--4.19\,V, which the constant-current charging curves of all three datasets share. Five regressors are evaluated with absolute features, with features normalized to each cell's own first charge, against a cycle-count baseline and a training-free capacity-ratio estimator. With a random split of cycles the mean error is 0.8 percentage points (pp) of SOH; when a whole cell is held out it is 2.0\,pp; when a whole dataset is held out it rises to 7.9\,pp and the coefficient of determination becomes negative for most configurations. Counting cycles alone is a strong baseline within the Oxford and CALCE datasets and is the best predictor on held-out CALCE cells (2.3\,pp). Reference normalization lowers the cross-dataset error of tree ensembles on two of the three datasets (e.g., from 13.5 to 5.9\,pp on CALCE) but not on Oxford. Our analysis links the failure to a dataset-dependent relation between window charge and capacity (slopes 0.66--1.56) and to degradation features that lie outside the common window. Code and protocol are released for reproducible evaluation.
 \end{abstract}
 
 \begin{IEEEkeywords}

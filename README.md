@@ -2,7 +2,7 @@
 
 Benchmark of battery state-of-health (SOH) estimation from a partial charging window (3.92–4.19 V) on three public lithium-ion aging datasets: NASA PCoE, Oxford Battery Degradation Dataset 1 and CALCE CS2.
 
-The preprint is available in [`paper/main.pdf`](paper/main.pdf).
+The preprint is available in [`paper/main.pdf`](paper/main.pdf) and on Zenodo: [doi:10.5281/zenodo.24053885](https://doi.org/10.5281/zenodo.24053885).
 
 ## Key findings
 
@@ -66,6 +66,7 @@ python make_figures.py
   author = {Haider Md. Faiyaz Hussain Shahi},
   year   = {2026},
   note   = {Preprint},
+  doi    = {10.5281/zenodo.24053885},
   url    = {https://github.com/shahihussainofficial1/battery-soh-transfer}
 }
 ```
